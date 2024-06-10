@@ -4,7 +4,6 @@ import random
 def jogo_de_adivinhacao():
     tentativas = 5
     senha = random.randrange(1, 101)
-    print(senha)
 
     try:
         while tentativas > 0:
